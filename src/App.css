@@ -1,0 +1,22 @@
+.App {
+  font-family: var(--font-base);
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.section__padding {
+    padding: 2rem 2rem
+}
+
+/* @media (max-width: 600px) {
+    .hero {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+} */

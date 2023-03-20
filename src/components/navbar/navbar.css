@@ -1,0 +1,148 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    z-index: 100;
+    padding: left;
+}
+
+.navbar__background-blur {
+    backdrop-filter: blur(5px); /* apply a blur effect to the background */
+    background-color: white; /* Set the background color to red when scrolled */
+}
+
+.navbar__container-dropdown {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1280px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+    margin: 1rem 2rem;
+    opacity: 95%;
+    border-radius: 100vh;
+    width: 100%;
+
+}
+
+.navbar__container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1280px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+    border-radius: 0.9rem;
+    margin: 1rem 2rem;
+    opacity: 95%;
+    width: 100%;
+}
+
+.navbar__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px; /* Set the font size of the logo */
+    color:  black; /* Set the font color of the links */
+}
+
+.navbar__links-item {
+    margin-left: 2rem; /* Add some margin between links */
+    font-size: 24px; /* Set the font size of the links */
+    text-decoration: none; /* Remove underline from links */
+    color:  black; /* Set the font color of the links */
+}
+
+.navbar__logo-picture {
+    height: 3.1rem; /* Set the height to 50px (5 x 10px) */
+    width: 3.1rem; /* Set the width to 50px (5 x 10px) */
+    min-width: 10rem;
+    min-height: 10rem;
+    border-radius: 0.9rem;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.navbar__logo-text {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+@media (max-width: 1044px) {
+    .navbar__links-item {
+        display: none;
+    }
+    }
+
+    .navbar__links-mobile-item {
+    display: block;
+    margin: 0 0;
+    font-size: 26px; /* Set the font size of the links */
+    text-decoration: none; /* Remove underline from links */
+    color:  black; /* Set the font color of the links */
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    }
+
+    .navbar__toggle {
+    height: 3.1rem;
+    width: 6.2rem;
+    border: 2px solid black;
+    border-radius: 0.9rem;
+    background-color: #fff;
+    font-size: 20px;
+    }
+
+    /* Hide the navbar__toggle button by default */
+.navbar__toggle {
+    display: none;
+}
+
+/* Show the navbar__toggle button when the screen is narrower than 1044px */
+@media (max-width: 1044px) {
+    .navbar__toggle {
+    display: block;
+    height: 3.1rem;
+    width: 6.2rem;
+    border: 2px solid black;
+    border-radius: 100vw;
+    background-color: #fff;
+    font-size: 20px;
+    }
+}
+
+@media (min-width: 1045px) {
+    .navbar__links-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .margin__logo-picture{
+        padding-right: 8px;
+    }
+
+    .navbar__container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+.navbar__links a:hover {
+    text-decoration: underline;
+  }

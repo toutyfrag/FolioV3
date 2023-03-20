@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    background-color: #e8e8e8;
+    padding-bottom: 5rem;
+
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer__div h1 {
+    font-size: 7rem;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer__div button {
+    margin-top: 2rem;
+    display: block;
+    height: 3.1rem;
+    border: 2px solid black;
+    border-radius: 0.9rem;
+    background-color: #e8e8e8;
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__div button:hover {
+    cursor: pointer;
+} 

@@ -33,8 +33,8 @@ export const projectData = {
     techs: ["React", "Tailwind"],
     year: "2023",
     image: photos.nike,
-    codeUrl: "https://github.com/toutyfrag/Folio1",
-    projectUrl: "https://toutyfrag.github.io/Portfolio/",
+    codeUrl: "https://github.com/toutyfrag/Nike",
+    projectUrl: "https://nike.stevensbougault.co.uk/",
     isActive: true, // Set this to true if you want to include it
   },
   folio2: {

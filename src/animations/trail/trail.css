@@ -1,0 +1,69 @@
+/* Deal with animation */
+.trailsText {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  line-height: 150px;
+  will-change: transform, opacity;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+.trailsText:last-child {
+  margin-top: 2rem;
+}
+
+.trailsText > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  height: 500px;
+  padding-right: 3px;
+  z-index: -1;
+  white-space: nowrap;
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 850px) and (max-width: 968px) {
+  .trailsText {
+    height: 185px;
+  }
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 768px) and (max-width: 849px) {
+  .trailsText {
+    height: 170px;
+  }
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 667px) and (max-width: 767px) {
+  .trailsText {
+    height: 165px;
+  }
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 466px) and (max-width: 666px) {
+  .trailsText {
+    height: 125px;
+    line-height: 100px;
+  }
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 321px) and (max-width: 465px) {
+  .trailsText {
+    height: 80px;
+    line-height: 80px;
+  }
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 200px) and (max-width: 320px) {
+  .trailsText {
+    height: 80px;
+    line-height: 80px;
+  }
+}

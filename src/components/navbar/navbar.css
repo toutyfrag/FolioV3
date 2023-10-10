@@ -1,0 +1,49 @@
+.navbar__container {
+  background-color: var(--color-grey-base);
+  border-radius: var(--bR-base);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.3rem 1rem;
+}
+
+.navLinkStyle {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.navLinkStyle:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar__extended {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links:not(:last-child) {
+  margin-right: 1rem;
+}
+.links__extended:first-child {
+  margin-top: 2rem;
+}
+
+.links__extended {
+  margin-bottom: 1rem;
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 200px) and (max-width: 320px) {
+  .navLinkStyle {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,68 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  white-space: nonwrap;
+}
+
+.footer__div h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 667px) and (max-width: 767px) {
+  .footer__div h1 {
+    font-size: 4rem;
+  }
+
+  .footer__div button {
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+}
+/* For devices with a width between 769px and 968px */
+@media (min-width: 466px) and (max-width: 666px) {
+  .footer__div h1 {
+    font-size: 3rem;
+  }
+
+  .footer__div button {
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 321px) and (max-width: 465px) {
+  .footer__div h1 {
+    font-size: 2rem;
+  }
+
+  .footer__div button {
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+}
+
+/* For devices with a width between 769px and 968px */
+@media (min-width: 200px) and (max-width: 320px) {
+  .footer__div h1 {
+    font-size: 2rem;
+  }
+
+  .footer__div button {
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+}

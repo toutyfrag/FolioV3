@@ -1,0 +1,90 @@
+.projectDivLink {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40rem;
+  border-radius: 0.9rem;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.projectDivLink:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.projectDivLink__bottom__div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.projectDivLink__bottom__div__title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.projectDivLink__bottom__div__techs {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.projectDivLink__bottom__div__year {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-bottom: 3px;
+  margin: 0;
+}
+
+@media (min-width: 466px) and (max-width: 666px) {
+  .projectDivLink__bottom__div__year {
+    display: none;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 465px) {
+  .projectDivLink {
+    height: 30rem;
+  }
+
+  .projectDivLink__bottom__div__title {
+    font-size: 3.6rem;
+  }
+
+  .projectDivLink__bottom__div__techs {
+    font-size: 1.2rem;
+  }
+
+  .projectDivLink__bottom__div__year {
+    display: none;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 320px) {
+  .projectDivLink__bottom__div__year {
+    display: none;
+  }
+
+  .projectDivLink__bottom__div__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .projectDivLink__bottom__div__techs {
+    font-size: 1.1rem;
+  }
+}

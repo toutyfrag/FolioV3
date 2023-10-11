@@ -19,8 +19,8 @@ export const homeLink = {
 
 //  Logic for the buttons in hero section. Dictionary for the button's link (If you add a value it will create a button)
 export const buttonsHeroLink = [
-  { github: "https://github.com/toutyfrag" },
-  { linkedin: "https://www.linkedin.com/in/stevens-bougault/" },
+  { Github: "https://github.com/toutyfrag" },
+  { LinkedIn: "https://www.linkedin.com/in/stevens-bougault/" },
 ];
 
 //  Logic for the projects adding anything will create project and it's route if isActive is set to true
